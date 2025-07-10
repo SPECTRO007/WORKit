@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'skilled.dart';
-import 'unskilled.dart';
 
 class Jobsplit extends StatelessWidget {
   const Jobsplit({super.key});

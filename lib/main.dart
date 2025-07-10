@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/registration.dart';
-import 'screens/jobsplit.dart';
-import 'screens/settings.dart';
-import 'screens/payment.dart';
+import 'screens/firstpage.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Stitch UI',
       debugShowCheckedModeBanner: false,
-      home: Payment(),
+      home: JobLandingScreen(),
     );
   }
 }
